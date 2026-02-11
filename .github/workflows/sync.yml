@@ -28,7 +28,7 @@ jobs:
         with:
           source_file: "friends/**"
           destination_repo: "ActonMartin/My_Blog"
-          destination_branch: "main"
+          destination_branch: "master"
           destination_folder: "src/content/friends"
           commit_message: "Sync friends folder from public repository"
           user_email: "github-actions[bot]@users.noreply.github.com"
