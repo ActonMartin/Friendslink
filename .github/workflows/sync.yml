@@ -26,7 +26,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.PRIVATE_REPO_TOKEN }}
         with:
-          source_file: "friends/**"
+          source_file: "friends"
           destination_repo: "ActonMartin/My_Blog"
           destination_branch: "master"
           destination_folder: "src/content/friends"
