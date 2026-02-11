@@ -3,7 +3,7 @@
 
 <summary>点击查看申请方式与 JSON 格式示例</summary>
 
-为了方便自动化处理，建议通过提交 PR 的方式申请友链；请在 [此处](https://github.com/ActonMartin/Friendslink/friends) 提交一个 JSON 文件即可。
+为了方便自动化处理，建议通过提交 PR 的方式申请友链；请在 [此处](https://github.com/ActonMartin/Friendslink/tree/master/friends) 提交一个 JSON 文件即可。
 
 
 **本站信息（申请时请参考）：**
