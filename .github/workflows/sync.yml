@@ -1,6 +1,8 @@
 name: Sync Files to Private Repository
 
 on:
+  schedule:
+    - cron: '0 21 * * *' # 每天 UTC 时间 21 点运行
   push:
     branches:
       - master
@@ -29,7 +31,7 @@ jobs:
           source_file: "friends"
           destination_repo: "ActonMartin/My_Blog"
           destination_branch: "master"
-          destination_folder: "src/content/friends"
+          destination_folder: "src/content"
           commit_message: "Sync friends folder from public repository"
           user_email: "github-actions[bot]@users.noreply.github.com"
           user_name: "github-actions[bot]"
